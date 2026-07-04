@@ -35,8 +35,6 @@ while True:
     except Exception as e:
         print(f"Error: {e}")
         print("\nIf you keep getting errors:")
-        print("1. Add $10 credit to your OpenRouter account (removes rate limiting)")
-        print("2. Or wait 30 seconds and try again (hitting free tier limits)")
         break
 
 print("\nChat ended.")
